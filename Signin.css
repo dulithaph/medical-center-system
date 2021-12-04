@@ -1,0 +1,184 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('https://lirio.com/wp-content/uploads/2018/11/PatrickCarlton6-1080x675.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+
+height: 90%;
+
+}
+
+.container{
+height: 80%;
+align-content: center;
+
+
+}
+
+.card{
+height: 100%;
+margin-top: 150px;
+margin-bottom: 150px;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+border:0px;
+-webkit-box-shadow: 0px 0px 27px 17px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 27px 17px rgba(0,0,0,1);
+box-shadow: 0px 0px 27px 17px rgba(0,0,0,1);
+}
+
+
+.card-header h3{
+color: white;
+font-family: calibri;
+text-align: center;
+}
+
+
+.card-footer h6{
+    color: white;
+    
+    }
+
+
+
+.input-group-prepend span{
+width: 50px;
+background-color: rgb(12, 223, 107);
+color: black;
+border:0 !important;
+
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: rgb(13, 224, 108);
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color:rgb(140, 255, 156);
+
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+/*for Nav Bar*/
+.topic{
+    font-size: 22px;
+    font-family: calibri;
+  }
+     
+  .login_Button{
+      background-color: rgb(45, 175, 49); 
+      border: none;
+      color: white;
+      padding: 2px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 17px;
+      font-family: calibri;
+      cursor: pointer;
+  
+  }
+  .login_Button:hover {
+  background-color: #217722;
+  }
+  
+  
+  .navbar {
+  background-color: rgba(29, 37, 39, 0.808);
+  
+  
+  }
+  
+  /* Password Reset Pop UP */
+
+   /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.747); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #f9ffffce;
+    margin-top: 30px;
+    margin: 8% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 390px; /* Could be more or less, depending on screen size */
+    height: 430px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+  .xxx
+  {
+      width: 100px;
+      padding: 0px;
+  }
+
+  .buttonForget {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color:rgb(140, 255, 156);
+    font-family: calibri;
+    outline:none;   
+}
